@@ -29,7 +29,7 @@ alten Röhrenmonitoren bei der LAN-Party. Wir vermissen es und wollen es wieder 
 
 > Zwei Spieler treten gegeneinander and und können dem Gegner rundenweise jeweils Monster senden. 
 Beide Spieler bauen Verteidungstürme, um die Monster zu besiegen und zu verhindern, dass sie ihr Ziel erreichen. 
-Türme zu bauen und Monster zu senden kostet Geld, Umso mehr Monster man besiegt bzw umso mehr Monster man sendet, 
+Türme zu bauen und Monster zu senden kostet Geld, umso mehr Monster man besiegt bzw umso mehr Monster man sendet, 
 umso mehr Einkommen gibt es pro Runde. Gewonnen hat, wer zuerst eine bestimmte Anzahl von Monstern 
 zum gegnerischen Ziel gebracht hat.
 
