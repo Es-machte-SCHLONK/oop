@@ -27,6 +27,7 @@ Nachfolgend bitte für jede Idee eine Überschrift erstellen und sie im Ideenver
 - [Fertigungsplanung (Django, Webapplikation)](#fertigungsplanung)
 - [Gartenplaner (PyGObject, Applikation)](#gartenplaner)
 - [Uniplanung (Django/PyGObject, Web-/Applikation)](#uniplanung)
+- [Freeyay's Idee (Technologie/Typ)](#freeyays-idee)
 
 ## Tower Defense
 >_Wer kennt es nicht, das allseits beliebte Tower Wars / Tower Defense von WC3 vor 
@@ -89,3 +90,14 @@ Details über die Pflanzen ausgeben zu lassen.
 
 **Technologie/Thema:**
 > Django o. PyGObject/Webapp o. Programm
+
+
+## Freeyays Idee
+> _Prosa_
+
+**Projektidee:**
+
+> Idee
+
+**Technologie/Thema:**
+> Technologie / Programm Spiel o.ä.
