@@ -28,6 +28,7 @@ Nachfolgend bitte für jede Idee eine Überschrift erstellen und sie im Ideenver
 - [Gartenplaner (PyGObject, Applikation)](#gartenplaner)
 - [Uniplanung (Django/PyGObject, Web-/Applikation)](#uniplanung)
 - [Freeyay's Idee (Technologie/Typ)](#freeyays-idee)
+- [Sportplaner] (Technonologie/Typ)] (#sportplaner)
 
 ## Tower Defense
 >_Wer kennt es nicht, das allseits beliebte Tower Wars / Tower Defense von WC3 vor 
@@ -94,10 +95,22 @@ Details über die Pflanzen ausgeben zu lassen.
 
 ## Freeyays Idee
 > _Prosa_
-
 **Projektidee:**
 
 > Idee
 
 **Technologie/Thema:**
 > Technologie / Programm Spiel o.ä.
+
+
+> ## Sportplaner
+> _Als Sportler ist es schwierig einen Überblick über seine Nährstoffe und andere ernährungsrelevante sowie trainingsrelevante Themen zu haben._
+
+**Projektidee:**
+
+> Die Anwendung erlaubt es die Woche zu planen, indem Trainings eingefügt werden. Außerdem wird berechnet welche Nährstoffe, Nahrungsergänzungsmittel und wie viel Wasser an dem Tag zugeführt werden sollten.
+> In der Trainingssicht können Übungen für die einzelnen Muskelgruppen ausgewählt werden und Ziele definiert werden
+ 
+**Technologie/Thema:**
+> ?/Programm
+
