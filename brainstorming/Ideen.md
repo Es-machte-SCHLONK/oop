@@ -31,8 +31,7 @@ Nachfolgend bitte für jede Idee eine Überschrift erstellen und sie im Ideenver
 - [Fertigungsplanung (Django, Webapplikation)](#fertigungsplanung)
 - [Gartenplaner (PyGObject, Applikation)](#gartenplaner)
 - [Uniplanung (Django/PyGObject, Web-/Applikation)](#uniplanung)
-- [Freeyay's Idee (Technologie/Typ)](#freeyays-idee)
-- [Sportplaner (Technonologie/Typ)] (#sportplaner)
+- [Sportplaner (Technologie/Typ)](#sportplaner)
 
 ## Tower Defense
 
