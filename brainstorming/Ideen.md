@@ -65,6 +65,7 @@ alten Röhrenmonitoren bei der LAN-Party. Wir vermissen es und wollen es wieder 
 > _Als Leiter der IT Abteilung in einem internationalen Fertigungsbetrieb, > weiß ich um die Schwierigkeiten
 von der Auftragsplanung in einer Fertigung._
 
+Yay
 **Projektidee:**
 
 > Eine browserbasierte Fertigungsplanung, bestehend aus Modulen zur Stücklistenplanung, Pflege der Durchlaufzeit,
