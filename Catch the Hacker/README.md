@@ -101,3 +101,4 @@ oder können die Detektive nicht mehr ziehen, hat X gewonnen.
 - 1 grünes Ticket pro 7,5 Stationen
 - 1 rotes Ticket pro 3,75 Stationen
 - Keine schwarzen Tickets
+
