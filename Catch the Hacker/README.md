@@ -47,11 +47,6 @@ Das Verhältnis zwischen den Punkten
 |------|------|-----|------------------|
 | 200  | 60   | 15  | 5 |
 
-Bzw Verhältnis:
-
- Gelb | Grün | Rot | Schwarz          |
-|------|------|-----|------------------|
-| 40  | 12   | 3  | 1 |
 
 ### Bewegung:
 Für Bewegung im Spiel nutzt man klassischerweise Tickets. 
@@ -63,7 +58,7 @@ Für Bewegung im Spiel nutzt man klassischerweise Tickets.
 | 4    | 3    | 3   | <Anzahl SpielerInnen> |
 
 - +2 Doppelzugkarten, mit denen 2 Züge ausgeführt werden dürfen.
-- Muss seinen aktuellen Punkt im 3, 8, 13, 18, 24 Zug aufdecken.
+- Muss seinen aktuellen Punkt im 3, 8, 13, 18 Zug aufdecken.
 - Spieler sehen das Verkehrsmittel, welches "Mister X" nutzt, außer er nutzt ein Black Ticket.
 - Nur mit Black Tickets kann die Schwarze Linie genutzt werden.
 
@@ -73,3 +68,34 @@ Für Bewegung im Spiel nutzt man klassischerweise Tickets.
 |------|------|-----|---------|
 | 10   | 8    | 4   | keine   |
 
+## Ziel: 
+Die ErmittlerInnen müssen den/die HackerIn "erwischen". D.h. auf dasselbe Feld ziehen.
+Wird X bis Zug 22 nicht entdeckt 
+oder können die Detektive nicht mehr ziehen, hat X gewonnen.
+
+## Weitere Analyse:
+### Verhältnis Stationen:
+
+ Gelb | Grün | Rot | Schwarz          |
+|------|------|-----|------------------|
+| 40  | 12   | 3  | 1 |
+
+### Verhältnis Tickets:
+
+| Info         | Gelb | Grün | Rot | Schwarz |
+|--------------|------|------|-----|---------|
+| Stationen    | 200  | 60   | 15  | 5       |
+| X            | 4    | 3    | 3   | *       |
+| ErmittelerIn | 10   | 8    | 4   | 0       |
+
+#### X:
+- 1 gelbes Ticket pro 50 Stationen
+- 1 grünes Ticket pro 20 Stationen
+- 1 rotes Ticket pro 5 Stationen
+- 1 schwarzes Ticket pro ErmittlerIn
+
+#### ErmittlerIn:
+- 1 gelbes Ticket pro 20 Stationen
+- 1 grünes Ticket pro 7,5 Stationen
+- 1 rotes Ticket pro 3,75 Stationen
+- Keine schwarzen Tickets
