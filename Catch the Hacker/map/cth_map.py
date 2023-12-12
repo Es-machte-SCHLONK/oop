@@ -5,6 +5,6 @@ class station:
 
 
 class connection:
-    source = station[1]
+    source = ""
     targets = []
 
