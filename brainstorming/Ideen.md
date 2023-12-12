@@ -54,6 +54,7 @@ alten Röhrenmonitoren bei der LAN-Party. Wir vermissen es und wollen es wieder 
 > _Scotland Yard, das Brettspiel als 2D Plattformer oder Isometrischer Platfomer._
 > FIND ICH GUT. (HF) 
 
+yay
 **Projektidee:**
 
 > Typische Regeln für Scotland Yard.
