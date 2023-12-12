@@ -8,6 +8,8 @@
 - [Technische Umsetzung](#technische-umsetzung-)
   -  [Das Spielfeld](#das-spielfeld)
   - [Bewegung](#bewegung-)
+- [Spielziel](#ziel-)
+- [Weitere Analyse](#weitere-analyse-)
 
 ## Die Idee:
 Ich mag das Spiel Scotland Yard. Es kommt auf Taktik, Kombinatorik und ein bisschen Glück an.
