@@ -2,16 +2,17 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-[Aufgabenplanung/Teilung](Arbeitsteilung.md)
-
 ## Übersicht
 
 - [Die Idee](#die-idee-)
+- [Spielziel](#ziel-)
 - [Technische Umsetzung](#technische-umsetzung-)
   -  [Das Spielfeld](#das-spielfeld)
   - [Bewegung](#bewegung-)
-- [Spielziel](#ziel-)
 - [Weitere Analyse](#weitere-analyse-)
+- [Arbeitsteilung](#arbeitsteilung)
+  - [Fragmente](#fragmenteaufgaben-)
+  - [Aufteilung](#aufteilung)
 
 ## Die Idee:
 Ich mag das Spiel Scotland Yard. Es kommt auf Taktik, Kombinatorik und ein bisschen Glück an.
@@ -104,3 +105,22 @@ oder können die Detektive nicht mehr ziehen, hat X gewonnen.
 - 1 rotes Ticket pro 3,75 Stationen
 - Keine schwarzen Tickets
 
+# Arbeitsteilung
+
+## Fragmente/Aufgaben:
+- Anforderungen definieren
+- Menü, Menüführung, GUI
+- Spielfeldgenerierung
+- Spielablauf & Logik
+- Datenhaltung
+- Single Player "KI"
+- ggf. Multiplayer ggf. LAN
+- ggf. Skalierung (mehrere X's? Skalierende Spielfelder? Mehr Züge?)
+- Grafik
+
+## Aufteilung
+
+| HF           | CS (w) | CS (m) | 
+|--------------|--------|--------|
+| A            | B      | C      |
+| A1           | B1     | C1     |
