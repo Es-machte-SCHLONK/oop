@@ -68,7 +68,7 @@ class Mapgenerator:
         )
 
 
-my_map = Mapgenerator(200)
+my_map = Mapgenerator(250)
 my_map.print_nodes()
 
 
