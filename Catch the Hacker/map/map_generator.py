@@ -1,4 +1,4 @@
-import cth_map
+import classes_map
 import random
 import datetime
 
