@@ -1,32 +1,6 @@
 import random
 import datetime
-
-
-class Node:
-    yellow = True
-    green = False
-    red = False
-    black = False
-    id = 0
-
-    def __init__(self, no, yellow, green, red):
-        self.id = int(no)
-        self.yellow = bool(yellow)
-        self.green = bool(green)
-        self.red = bool(red)
-        self.black = False
-
-    def __init__(self, no, yellow, green, red, black):
-        self.id = int(no)
-        self.yellow = bool(yellow)
-        self.green = bool(green)
-        self.red = bool(red)
-        self.black = bool(black)
-
-
-class Connection:
-    source = ""
-    targets = []
+from Nodes import Node
 
 
 class Mapgenerator:
@@ -39,7 +13,7 @@ class Mapgenerator:
     randomInt = 0
     nodeList = []
 
-    # Additional Information, based on official Scotland Yard map:
+    # Additional Information, based on official Scotland Yard classes_map:
     #   every 3.333 nodes, a GREEN node.    >> 30 per 100  >> 300 per 1000
     #   every 13.333 nodes, a RED node.     >> 7,5 per 100 >> 75 per 1000
     #   every 40 nodes, a BLACK node.       >> 2,5 per 100 >> 25 per 1000
@@ -94,5 +68,8 @@ class Mapgenerator:
         )
 
 
-myMap = Mapgenerator(200)
-myMap.print_nodes()
+my_map = Mapgenerator(200)
+my_map.print_nodes()
+
+
+

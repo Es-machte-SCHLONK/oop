@@ -30,7 +30,7 @@ input_handler.bind('right arrow', 'd')
 input_handler.bind('left arrow', 'a')
 input_handler.bind('up arrow', 'space')
 
-# test
+# tests
 from ursina.scripts.noclip_mode import NoclipMode2d
 player.add_script(NoclipMode2d())
 
