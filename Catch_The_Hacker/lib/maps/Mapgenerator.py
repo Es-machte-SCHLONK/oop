@@ -13,7 +13,7 @@ class Mapgenerator:
     randomInt = 0
     nodeList = []
 
-    # Additional Information, based on official Scotland Yard classes_map:
+    # Additional Information, based on official Scotland Yard lib:
     #   every 3.333 nodes, a GREEN node.    >> 30 per 100  >> 300 per 1000
     #   every 13.333 nodes, a RED node.     >> 7,5 per 100 >> 75 per 1000
     #   every 40 nodes, a BLACK node.       >> 2,5 per 100 >> 25 per 1000
