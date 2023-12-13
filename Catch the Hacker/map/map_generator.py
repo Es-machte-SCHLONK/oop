@@ -57,15 +57,19 @@ class Mapgenerator:
             if self.randomInt <= 75:
                 green = True
                 red = True
+                self.greenNodeCount += 1
+                self.redNodeCount += 1
             elif self.randomInt <= 300:
                 green = True
                 red = False
+                self.greenNodeCount += 1
             else:
                 green = False
                 red = False
 
             if random.randint(1, 1000) <= 25:
                 black = True
+                self.blackNodeCount += 1
             else:
                 black = False
 
@@ -82,6 +86,13 @@ class Mapgenerator:
                 str(node.red) + " \t" +
                 str(node.black)
             )
+        print(
+            "Gesamt:\t\t\t" +
+            str(self.totalNodeCount) + "\t" +
+            str(self.greenNodeCount) + "\t\t" +
+            str(self.redNodeCount) + "\t\t" +
+            str(self.blackNodeCount)
+        )
 
 
 myMap = Mapgenerator(1000)
