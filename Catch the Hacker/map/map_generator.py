@@ -30,8 +30,9 @@ class Connection:
 
 
 class Mapgenerator:
-    now = datetime.datetime.now().timestamp()
-    random.seed(now)
+    now = float(datetime.datetime.now().timestamp())
+    print(now)
+    random.seed()
     totalNodeCount = 0
     greenNodeCount = 0
     redNodeCount = 0
@@ -46,10 +47,12 @@ class Mapgenerator:
     #   Every RED node is also GREEN and YELLOW node.
     #   Black nodes are special.
     def __init__(self, total_node_count):
+        now = float(datetime.datetime.now().timestamp())
+        random.seed(now)
         self.totalNodeCount = int(total_node_count)
         # Statistical distribution of green, red and black nodes.
         for i in range(total_node_count):
-            
+
             self.randomInt = random.randint(1, 1000)
             if self.randomInt <= 75:
                 green = True
@@ -69,18 +72,17 @@ class Mapgenerator:
             new_node = Node(i, True, green, red, black)
             self.nodeList.append(new_node)
 
+    def print_nodes(self):
+        print("Node Nr.\t\tYellow\tGreen\tRed \tBlack")
+        for node in self.nodeList:
+            print(
+                str(node.no) + "\t\t\t\t" +
+                str(node.yellow) + "\t" +
+                str(node.green) + "\t" +
+                str(node.red) + " \t" +
+                str(node.black)
+            )
 
-print(now)
 
-random.seed(now)
-
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
-print(random.randint(0, 4))
+myMap = Mapgenerator(1000)
+myMap.print_nodes()
