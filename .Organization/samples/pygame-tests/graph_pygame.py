@@ -107,7 +107,7 @@ def main():
     graph = create_graph()
     # Putting the "pygame.quit" call in a try-finally clause
     # will guarrantee Pygame exits normally if later you
-    # decide to use fullscreen graphics
+    # decide to use fullscreen assets
     selected = None
     try:
         init()
