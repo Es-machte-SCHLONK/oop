@@ -7,17 +7,17 @@ class Node:
     green = False
     red = False
     black = False
-    no = 0
+    id = 0
 
     def __init__(self, no, yellow, green, red):
-        self.no = int(no)
+        self.id = int(no)
         self.yellow = bool(yellow)
         self.green = bool(green)
         self.red = bool(red)
         self.black = False
 
     def __init__(self, no, yellow, green, red, black):
-        self.no = int(no)
+        self.id = int(no)
         self.yellow = bool(yellow)
         self.green = bool(green)
         self.red = bool(red)
@@ -31,7 +31,6 @@ class Connection:
 
 class Mapgenerator:
     now = float(datetime.datetime.now().timestamp())
-    print(now)
     random.seed()
     totalNodeCount = 0
     greenNodeCount = 0
@@ -80,20 +79,20 @@ class Mapgenerator:
         print("Node Nr.\t\tYellow\tGreen\tRed \tBlack")
         for node in self.nodeList:
             print(
-                str(node.no) + "\t\t\t\t" +
+                str(node.id) + "\t\t\t\t" +
                 str(node.yellow) + "\t" +
                 str(node.green) + "\t" +
                 str(node.red) + " \t" +
                 str(node.black)
             )
         print(
-            "Gesamt:\t\t\t" +
-            str(self.totalNodeCount) + "\t" +
-            str(self.greenNodeCount) + "\t\t" +
-            str(self.redNodeCount) + "\t\t" +
+            "\nGesamt:\t\t\t" +
+            str(self.totalNodeCount) + "\n\tYellow:\t\t" +
+            str(self.greenNodeCount) + "\n\tGreen:\t\t" +
+            str(self.redNodeCount) + "\n\tBlack:\t\t" +
             str(self.blackNodeCount)
         )
 
 
-myMap = Mapgenerator(1000)
+myMap = Mapgenerator(200)
 myMap.print_nodes()
